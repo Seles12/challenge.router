@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div class="app">
     <heater></heater>
+
     <router-view></router-view>
     <barra></barra>
   </div>
@@ -14,3 +15,10 @@ export default {
   components: { heater, barra },
 };
 </script>
+<style>
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+</style>

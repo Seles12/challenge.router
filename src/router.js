@@ -1,10 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
+import gallery from "./componente/gallery.vue";
 import home from "./componente/home.vue";
-import register from "./componente/register.vue";
-import services from "./componente/services.vue";
-// import barra from "./componente/footer.vue";
-// import { component } from "vue/types/umd";
+import about from "./componente/about.vue";
 
 Vue.use(Router);
 
@@ -12,16 +10,20 @@ export default new Router({
   mode: "history",
   routes: [
     {
+      path: "/",
+      component: home,
+    },
+    {
       path: "/home",
       component: home,
     },
     {
-      path: "/register",
-      component: register,
+      path: "/gallery",
+      component: gallery,
     },
     {
-      path: "/services",
-      component: services,
+      path: "/about",
+      component: about,
     },
   ],
 });
