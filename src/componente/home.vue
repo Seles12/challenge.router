@@ -3,7 +3,7 @@
     <b-carousel
       id="carousel-1"
       v-model="slide"
-      :interval="2000"
+      :interval="4000"
       controls
       indicators
       background="#ababab"
@@ -15,7 +15,7 @@
     >
       <!-- Slides with custom text -->
       <b-carousel-slide img-src="https://picsum.photos/1024/500/?image=532">
-        <h1>WELCOME DevKING</h1>
+        <h1>WELCOME</h1>
       </b-carousel-slide>
 
       <b-carousel-slide img-src="https://picsum.photos/1024/500/?image=60">

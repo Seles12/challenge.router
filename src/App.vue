@@ -17,8 +17,13 @@ export default {
 </script>
 <style>
 .app {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   min-height: 100vh;
+  gap: 1.5rem;
+  grid-template-rows:
+    auto
+    1fr
+    auto;
+  background: linear-gradient(to right, #01050f, #49a7c1);
 }
 </style>

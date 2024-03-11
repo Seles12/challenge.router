@@ -4,6 +4,7 @@ import gallery from "./componente/gallery.vue";
 import home from "./componente/home.vue";
 import about from "./componente/about.vue";
 
+
 Vue.use(Router);
 
 export default new Router({

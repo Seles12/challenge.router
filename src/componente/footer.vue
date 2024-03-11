@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <span>Copyright <strong>DevKING</strong> -2023</span>
+    <span>Copyright <strong>Vue-Router.project</strong> -2023</span>
   </div>
 </template>
 <style>
